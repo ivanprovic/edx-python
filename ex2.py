@@ -1,6 +1,6 @@
-x = input("enter x: ")
-y = input("enter y: ")
+x = float(input("Whats x? "))
+y = float(input("Whats y? "))
 
-print(int(x) + int(y))
+z = x / y
 
-
+print(f"{z:.2f}")
